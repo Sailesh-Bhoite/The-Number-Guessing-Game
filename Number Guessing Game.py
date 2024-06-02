@@ -53,12 +53,11 @@ def display(sentence: str):
         win.after(1300, lambda: label_text.set("Enter number between 0 to"))
         win.after(1400, lambda: label_text.set("Enter number between 0 to 100"))
     else:
-        win.after(200, lambda: label_text.set("Kuchh"))
-        win.after(500, lambda: label_text.set("Kuchh Alag"))
-        win.after(1100, lambda: label_text.set("Kuchh Alag Maal"))
-        win.after(1500, lambda: label_text.set("Kuchh Alag Maal Maarela"))
-        win.after(1900, lambda: label_text.set("Kuchh Alag Maal Maarela Hain"))
-        win.after(2300, lambda: label_text.set("Kuchh Alag Maal Maarela Hain Kya"))
+        win.after(200, lambda: label_text.set("Some"))
+        win.after(500, lambda: label_text.set("Some Thing"))
+        win.after(1100, lambda: label_text.set("Some Thing Is"))
+        win.after(1500, lambda: label_text.set("Some Thing Is Going"))
+        win.after(1500, lambda: label_text.set("Some Thing Is Going Wrong"))
 
 
 def check():
